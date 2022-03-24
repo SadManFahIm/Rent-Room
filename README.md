@@ -27,4 +27,4 @@ Your app is ready to be deployed!
 ---
 
 created by Sadman Fahim  <br />
-[![Twitter Follow](https://img.shields.io/twitter/follow/salihcodev?style=social)](https://twitter.com/SFahiim)
+[![Twitter Follow](https://twitter.com/SFahiim)
