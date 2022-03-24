@@ -1,0 +1,43 @@
+@import "../../../style/_vars.sass";
+
+section.ServiceTemplate {
+  padding: 0 10px 20px 0;
+
+  .card {
+    position: relative;
+    margin-top: 20px;
+    transition: all $fast-transition;
+
+    &:hover {
+      box-shadow: 2px 1px 10px -2px #000000ad;
+      transform: scale(1.05);
+    }
+
+    .serviceIcon {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: #dddd;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      top: -25px;
+      left: -12px;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .serviceHeader {
+      padding-left: 30px;
+      padding-bottom: 0;
+    }
+    .service {
+      .card-text {
+        color: #666;
+      }
+      .serviceBody {
+      }
+    }
+  }
+}

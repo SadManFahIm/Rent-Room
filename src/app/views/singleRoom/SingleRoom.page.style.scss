@@ -1,0 +1,16 @@
+@import "../../style/_vars.sass";
+
+section.singleRoomPage {
+  .container {
+    > h2.heading {
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      background: $alt-cl-4;
+      padding: 3rem 0;
+      margin: 5rem 0 1rem;
+      color: $off-white;
+      text-transform: uppercase;
+    }
+  }
+}

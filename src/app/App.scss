@@ -1,0 +1,14 @@
+// Global styles.
+* {
+  &::first-letter {
+    text-transform: capitalize;
+  }
+}
+
+hr {
+  border-top: #788182 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}

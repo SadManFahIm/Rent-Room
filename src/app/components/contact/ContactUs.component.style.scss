@@ -1,0 +1,65 @@
+@import "../../style/_vars.sass";
+
+section.contactUS {
+  padding: 80px 0;
+
+  h2.heading {
+    padding: 40px 0;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+    border-left: 4px solid #ddd9;
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #d0566a;
+    background-color: #d0566a;
+  }
+
+  a.sendUserInfo {
+    text-decoration: none;
+    padding: 4px 10px !important;
+    margin: 0 5px;
+    position: relative;
+    min-width: 12rem;
+    min-height: 3rem;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 5rem;
+    overflow: hidden;
+    border: 2px solid $off-white;
+    background: #d0566a;
+    color: $off-white;
+    transition: all ease-in-out 0.2s;
+    margin-top: 2rem;
+
+    span.btnIcon {
+      position: absolute;
+      background: #0000001c;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 32px;
+      padding: 2px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    span.btnContext {
+      padding-left: 27px;
+      font-size: 16px;
+    }
+  }
+}

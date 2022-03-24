@@ -1,0 +1,78 @@
+@import "../../../style/_vars.sass";
+
+section.PlanTemplate {
+  padding: 0 10px;
+
+  .Plan {
+    margin-top: 30px;
+    border: 1px solid #dddd;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    transition: $fast-transition;
+
+    &:hover {
+      transform: scale(1.05) translate(0, -2rem);
+    }
+
+    .planIcon {
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      border: 7px solid #fff;
+      top: -17px;
+      left: -22px;
+      font-size: 23px;
+      padding: 8px 10px 0 10px;
+      background: linear-gradient(131deg, #d3ad6b, #e7ac45);
+      color: $off-white;
+    }
+    .PlanHeader {
+      background: $off-white;
+      padding: 30px;
+      font-size: 20px;
+      font-weight: bolder;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    .planBody {
+      ul.featuresList {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li.feature {
+          border-bottom: 1px solid $off-white;
+          padding: 0.6rem;
+          font-size: 15px;
+        }
+      }
+    }
+    p.cost {
+      margin: 0;
+      margin-top: 12px;
+    }
+
+    small.role {
+      padding: 7px 0 15px 0;
+      display: block;
+    }
+
+    .planFooter {
+      button {
+        color: $off-white;
+        background: linear-gradient(131deg, #d3ad6b, #e7ac45);
+        border: 1px solid $off-white;
+        border-radius: 5rem;
+        min-width: 8rem;
+        min-height: 2rem;
+        padding: 0.4rem;
+        transition: ease-in-out 0.2s;
+        text-decoration: none;
+        text-align: center;
+        margin: 2rem 0 1rem;
+      }
+    }
+  }
+}
